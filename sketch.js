@@ -15,7 +15,7 @@ var ball,rock;
 var btn1;
 var btn2;
 function setup() {
-  createCanvas(400,400);
+  createCanvas(windowWidth, windowHeight);
 
   engine = Engine.create();
   world = engine.world;
